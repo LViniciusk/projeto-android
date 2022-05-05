@@ -86,12 +86,14 @@ nav{
 }
 
 nav > a{
+    position: relative;
     color: var(--cor1);
     padding: 10px;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
     transition-duration: .2s;
+    top: 0px;
 }
 nav a:hover{
     background-color: var(--cor3);
